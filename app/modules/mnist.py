@@ -45,6 +45,7 @@ def tsnePredict(image):
   tsneImg=xgbRModel.predict([reshapImg])
   # XGboost Classfication
   predict=xgbCModel.predict(tsneImg)[0]
+  predict=xgbCModel.predict([-23,8])[0]
   print(tsneImg,predict)
   return predict
 
