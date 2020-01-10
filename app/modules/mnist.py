@@ -38,6 +38,7 @@ def tsnePredict(image):
         predict(int):  predict number result
   """
   reshapImg=image.reshape(-1)
+  print(reshapImg)
   # XGBoost Regression (784D->2D)
   tsneImg=xgbRModel.predict([reshapImg])
   # XGboost Classfication
