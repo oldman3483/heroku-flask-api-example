@@ -13,6 +13,7 @@ PROJECT_DIR=''
 print(PROJECT_DIR)
 with gzip.open(PROJECT_DIR+'app/modules/MNIST/resource/xgb(regression)-42-5000-scale-all.pgz', 'rb') as f:
     xgbRModel = pickle.load(f)
+    print(xgbRModel)
 with gzip.open(PROJECT_DIR+'app/modules/MNIST/resource/xgb(classfication)-42-5000-scale-all.pgz', 'rb') as f:
     xgbCModel = pickle.load(f)
 
