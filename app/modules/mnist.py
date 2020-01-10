@@ -41,13 +41,10 @@ def tsnePredict(image):
         predict(int):  predict number result
   """
   reshapImg=image.reshape(-1)
-  print(reshapImg)
   # XGBoost Regression (784D->2D)
   tsneImg=xgbRModel.predict([reshapImg])
   # XGboost Classfication
   predict=xgbCModel.predict(tsneImg)[0]
-  tsneImg=[-23,8]
-  predict=xgbCModel.predict([-23,8])[0]
   print(tsneImg,predict)
   return predict
 
@@ -67,7 +64,7 @@ def getResult(base64Image=''):
         response predict result
   """
   if base64Image=='':
-    image = cv2.imread(PROJECT_DIR+"app/modules/MNIST/data/7.png")[:,:,::-1]
+    image = cv2.imread(PROJECT_DIR+"app/modules/MNIST/data/4.png")[:,:,::-1]
   else:
     image=base64_cv2(base64Image)
 
