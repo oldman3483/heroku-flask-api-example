@@ -5,4 +5,5 @@ scikit-learn==0.22
 opencv-python
 gunicorn==19.6.0
 xgboost
-base64
+pickle
+gzip
