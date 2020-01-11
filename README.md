@@ -22,3 +22,16 @@ libxrender1
 libfontconfig1
 libice6
 ```
+
+### 部署專案
+確認以下事情都完成後就可以部署程式囉！記得我們有跟GitHub連動，當你的專案git push後Heroku就會幫你自動部署了。你可以從Activity內看到部署狀態，也能從右上角 More -> View logs 觀看後台Log訊息。或者你也可以從Deploy內手動部署也行。
+
+- Python Flask API程式撰寫 ✅
+- 專案內建立Procfile與Aptfile設定檔 ✅
+- Heroku建立專案 ✅
+- Heroku與GitHub連動 ✅
+- Heroku設定Buildpacks ✅
+
+### 測試API
+
+![](https://miro.medium.com/max/712/1*hurEGbgSEppF2tTADynIig.png)
