@@ -33,5 +33,36 @@ libice6
 - Heroku設定Buildpacks ✅
 
 ### 測試API
+- [API測試](https://digit-recognizer-project.herokuapp.com/mnist)
+- [API文件](https://andy6804tw.github.io/digit-recognizer-project/document/API.html)
 
 ![](https://miro.medium.com/max/712/1*hurEGbgSEppF2tTADynIig.png)
+
+## Getting Started
+### Clone Project
+you can create a new project based on heroku-flask-api-example by doing the following:
+
+```bash
+git clone https://github.com/1010code/heroku-flask-api-example.git
+cd heroku-flask-api-example
+```
+
+### Installation
+When that's done, install the project dependencies.
+```bash
+python install -r requirements.txt
+```
+
+### Running the Project
+After completing the installation step, you're ready to start the project.
+
+| script | Description |
+| ------| ------ |
+| start | Serves your app at localhost:5001 |
+
+
+`python run.py` running locally! Your app should now be running on [localhost:5001](http://localhost:5001/).
+
+## Contribute
+### Report Issues and Improvement Suggestions
+File report at this project's [issue](https://github.com/1010code/heroku-flask-api-example/issues) tracker if you noticed some problem or have improvement suggestions.
