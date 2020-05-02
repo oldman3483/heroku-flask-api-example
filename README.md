@@ -33,7 +33,7 @@ libice6
 - Heroku設定Buildpacks ✅
 
 ### 測試API
-- [API測試](https://digit-recognizer-project.herokuapp.com/mnist)
+- [API測試](https://heroku-flask-api-example.herokuapp.com//mnist)
 - [API文件](https://andy6804tw.github.io/digit-recognizer-project/document/API.html)
 
 ![](https://miro.medium.com/max/712/1*hurEGbgSEppF2tTADynIig.png)
