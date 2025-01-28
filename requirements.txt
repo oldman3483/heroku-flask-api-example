@@ -1,7 +1,7 @@
-Flask
-flask_cors
-flask_uploads
+Flask==1.1.1
+flask_cors==3.0.8
+flask_uploads==0.2.1
 scikit-learn
 opencv-python
-gunicorn
-xgboost
+gunicorn==19.6.0
+xgboost==0.90
